@@ -3,6 +3,7 @@
 Welcome to the **Infinite Tic-Tac-Toe** game! This project is a fun and interactive web-based version of the classic game, featuring multiple boards, player scores, and a simple user interface. The game allows players to compete by placing "X" and "O" on any of the six boards, with a unique scoreboard that keeps track of points.
 
 ---
+![Screenshot (93)](https://github.com/user-attachments/assets/e825b818-c6dd-4ef8-9b8a-d0cb3784decb)
 
 ## **Inspiration**
 
@@ -52,6 +53,7 @@ This is my first hackathon! I wanted to see how it feels to work on a project in
 ## **What's Next for Infinite-Tic-Tac-Toe**
 
 - There are no immediate plans for updates, but it would be great if people actually play it! I may add additional features like:
+
   - Multiplayer support.
   - More complex game boards.
   - A leaderboard to track the highest scores.
