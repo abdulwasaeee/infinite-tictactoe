@@ -1,0 +1,111 @@
+/* General styling for the game container */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #61a8ff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 20px; /* Adjusted font size */
+  background-color: #6B4F3A;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+  border: 5px solid #4a3626; /* Adjusted border size */
+  align-items: center;
+}
+
+.scoreboard .player {
+  text-align: center;
+  width: 48%;
+}
+
+.scoreboard .player1 p {
+  color: yellow; /* Player 1 score in yellow */
+}
+
+.scoreboard .player2 p {
+  color: #003366; /* Player 2 score in dark blue */
+}
+
+.scoreboard .separator {
+  width: 2px;
+  background-color: white;
+  margin: 0 20px;
+  height: 60%;
+}
+
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.tic-tac-toe-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  border: 2px solid #333;
+  background-color: #45b26b;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.tic-tac-toe-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #74c69d;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tic-tac-toe-cell:hover {
+  background-color: #61a8ff;
+}
+
+.tic-tac-toe-cell:active {
+  background-color: #4e92cc;
+  transform: scale(0.95);
+}
+
+h1 {
+  font-size: 64px;
+  color: white;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #61a8ff;
+}
